@@ -12,7 +12,8 @@ Engineers tend to focus on backend test. For the front engineers, project manger
 
 
 # Proposed solution:
-Design one framework or improve an existing framework as an automatic testing tool for user interface. Give a standard method to test and verify the user interface. An automatic testing tool can be based on scenarios.
+ A standard process to test and verify the user interface. 
+ An automatic testing tool.
 
 # Research question:
 What is a good automatic testing framework for user interface?
