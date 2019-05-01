@@ -22,3 +22,5 @@ What is a good automatic testing framework for user interface?
 1. We will analyze 3 popular framework（Selenium，Katalon Studio，Watir） of user interface tasting and compare them from the perspective of performance, how hard to use, the situations it is suitable.
 
 2.  Perform user interface tests for website, ios and Android apps and desktop application.
+
+3. paper research
