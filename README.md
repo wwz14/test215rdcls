@@ -15,9 +15,7 @@ Engineers tend to focus on backend test. For the front engineers, project manger
 Design one framework or improve an existing framework as an automatic testing tool for user interface. Give a standard method to test and verify the user interface. An automatic testing tool can be based on scenarios.
 
 # Research question:
-What should be supplied to a current  automatic user interface testing framework?
-       
-How to compare different automatic user interface testing framework? How to select the most suitable framework for a project?
+What is a good automatic testing framework for user interface?
 
 # Evaluation plan:
 1. We will analyze 3 popular framework（Selenium，Katalon Studio，Watir） of user interface tasting and compare them from the perspective of performance, how hard to use, the situations it is suitable.
