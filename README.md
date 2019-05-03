@@ -8,19 +8,18 @@ The user interface (UI) is the space where interactions between humans and sof
 The goal user interface is to produce a user interface which makes it easy, efficient, and enjoyable (user-friendly) to operate a software in the way which produces the desired result. This generally means that the operator needs to provide minimal input to achieve the desired output, and also that the software minimizes undesired outputs to the human. As the result, the quality of user interface is an important part to the quality of the entire software. Also, the user interface has the most impact on user.
 
 # Current state:
-Engineers tend to focus on backend test. For the front engineers, project manger, when they finish the development of the user interface, they tend to check whether it works by clicking the user interface. The test on user interface is not a easy work. First, it should develop kinds of scenarios and design a sequence of user action to perform the scenarios. Also, at the same, it need a person to supervise the result of test. The test on user interface is performed slightly. 
+What is a good UI? The HCI field always focus on defining a user-friendly UI and provides a set of principle to guide the UI design work. Also, checklist is devleoped for UI test.  However, the problem that whether the UI provides the functions that exactly match with the requirements receives less attention. Function tests tend to focus on backend. For the front engineers, when they finish the development of the user interface, they tend to check whether it works by clicking the user interface. For the QA team, the test on user interface is not a easy work. One of the reason is that the test on UI is not easy to track. Also, it should develop kinds of scenarios based on the requirements and design a sequence of user action to perform the scenarios. Also, at the same, it needs to supervise the result of test. The test on user interface is performed slightly. 
 
 
 # Proposed solution:
- A standard process to test and verify the user interface. 
- An automatic testing tool.
+A behavior-drive UI test framework tool may help the Ui testing process. The test scripts are developed based on the scenarios documented as features of this software. The test scripts run automatically and the terminal shows which scenario is test-passed and which failed.
+
+A plugin will be developed and used as the extension of Selenium. The plugin will import the behavior-drive model into Selenium and makes it test based on scenarios. 
 
 # Research question:
-What is a good automatic testing framework for user interface?
+How to improve the UI test process?
 
 # Evaluation plan:
-1. We will analyze 3 popular framework（Selenium，Katalon Studio，Watir） of user interface tasting and compare them from the perspective of performance, how hard to use, the situations it is suitable.
+Test GoodERP on Linux environment using the framwork we developed.
 
-2.  Perform user interface tests for website, ios and Android apps and desktop application.
 
-3. paper research
